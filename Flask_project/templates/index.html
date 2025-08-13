@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <header>
+        <h1>Hi, I am Rishitosh Kumar</h1>
+        <p>Python Developer | Web Enthudiast | Problem Solver</p>
+    </header>
+    
+    <section>
+        <img src="{{url_for('static', filename='profile.jpg')}}" alt="Profile Picture">
+        <h2>About Me</h2>
+        <p>I am a passionate developer who loves building applications with Python, I am enthusiastic and success driven programmer eager to leverage my technical expertise and creativity to
+        tackle real world challenges. With a demonstrated ability to quickly grasp new languages and tools, I thrive on taking on fresh technical hurdles and transforming concepts into impactful solutions.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website with Flask</li>
+            <li>Rest API for User Management</li>
+            <li>Web Scraper for News Headlines</li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <a href="{{url_for('contact')}}">Contact Me</a>
+    </footer>
+</body>
+</html>

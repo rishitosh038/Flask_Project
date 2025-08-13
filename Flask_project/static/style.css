@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Change this to your preferred color */
+    color: white; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #e65c00; /* Darker shade on hover */
+}
